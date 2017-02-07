@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f0c28010a89b5c60f698cabe7a6525b6",
+    "packages": [
+        {
+            "name": "hightman/httpclient",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hightman/httpclient.git",
+                "reference": "b4098d97b779bbe37d16bebf42736408a5c944c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hightman/httpclient/zipball/b4098d97b779bbe37d16bebf42736408a5c944c4",
+                "reference": "b4098d97b779bbe37d16bebf42736408a5c944c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "hightman\\http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hightman",
+                    "email": "hightman@twomice.net"
+                }
+            ],
+            "description": "A parallel HTTP client written in pure PHP",
+            "homepage": "http://hightman.cn/",
+            "keywords": [
+                "curl",
+                "http client",
+                "php",
+                "rest"
+            ],
+            "time": "2015-09-16T06:05:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0",
+        "ext-mysqli": "*",
+        "lib-pcre": "*"
+    },
+    "platform-dev": []
+}
