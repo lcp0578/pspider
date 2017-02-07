@@ -61,7 +61,7 @@ interface UrlTable
 
 /**
  * 基于 MySQLi 的 URL 列表管理，结构如下：
- * CREATE TABLE `_urls` (
+ * CREATE TABLE `sp_urls` (
  *   `id` varchar(32) NOT NULL COMMENT 'md5 hash of URL',
  *   `url` text NOT NULL,
  *   `rank` smallint(6) NOT NULL COMMENT 'process prior level',
@@ -73,11 +73,11 @@ interface UrlTable
  */
 class UrlTableMySQL extends mysqli implements UrlTable
 {
-	private $_table = '_urls';
+	private $_table = 'sp_urls';
 	private $_addCache = array();
 
 	/**
-	 * @param string $name 设置数据库表名，默认 _urls
+	 * @param string $name 设置数据库表名，默认 sp_urls
 	 */
 	public function setTableName($name)
 	{
